@@ -296,3 +296,32 @@ footer {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+.certificate-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.certificate-grid img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badge {
+  background-color: #f4b400;
+  color: #222;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+}
