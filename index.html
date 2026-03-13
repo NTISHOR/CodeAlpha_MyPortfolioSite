@@ -3,51 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+<title>Akpotu Augustine Ntishor - Portfolio</title>
 <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <!-- Navigation -->
 <nav>
-<h2>MyPortfolio</h2>
-
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+  <h2>Akpotu Augustine Ntishor</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="dark-toggle">Dark Mode</button>
 </nav>
 
-<!-- Home Section -->
+<!-- Hero / Home -->
 <section id="home" class="home">
-<h1>Hello, I'm Uncle N</h1>
-<p>Web Developer | Student</p>
-<a href="#projects" class="btn">View My Work</a>
+  <h1>Hello, I'm <span>Uncle N</span></h1>
+  <p>Web Developer | Student</p>
+  <a href="#projects" class="btn">View My Work</a>
 </section>
 
 <!-- About -->
 <section id="about">
-<h2>About Me</h2>
-<p>I am a web developer passionate about building web applications.</p>
+  <h2>About Me</h2>
+  <p>I am a web developer passionate about building web applications.</p>
 
-<h3>Skills</h3>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>PHP</li>
-<li>MYSQL</li>
-</ul>
+  <h3>Skills</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>PHP</li>
+    <li>MYSQL</li>
+  </ul>
 </section>
 
+<!-- Resume -->
 <section id="resume">
   <h2>Resume</h2>
-
   <a href="/documents/CODEALPHA.pdf" target="_blank" class="btn">View Resume</a>
-
   <a href="/documents/CODEALPHA.pdf" download class="btn">Download Resume</a>
 </section>
 
@@ -66,20 +64,31 @@
   </div>
 </section>
 
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+</section>
+
+<!-- Footer -->
 <footer>
-
-<p>© 2026 Uncle N | Web Developer</p>
-
-<div class="socials" id="contact">
-<a href="https://github.com/ntishor" target="_blank">GitHub</a>
-<a href="https://linkedin.com/in/augustine-ntishor-akpotu-1a3160318" target="_blank">LinkedIn</a>
-<a href="tel:+234706482042">Phone</a>
-<a href="mailto:ntishor64@gmail.com">Email</a>
-</div>
-
+  <p>© 2026 Uncle N | Web Developer</p>
+  <div class="socials" id="contact">
+    <a href="https://github.com/ntishor" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/augustine-ntishor-akpotu-1a3160318" target="_blank">LinkedIn</a>
+    <a href="tel:+234706482042">Phone</a>
+    <a href="mailto:ntishor64@gmail.com">Email</a>
+  </div>
 </footer>
 
-<script src="script.js"></script>
+<!-- Back-to-top button -->
+<button id="back-to-top">↑</button>
 
+<script src="script.js"></script>
 </body>
 </html>
